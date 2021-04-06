@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.arktitle {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 280px;
+	position: absolute;
+	left: -1px;
+	top: -17px;
+	background: linear-gradient(30deg, BlueViolet, silver, blue);
+	-webkit-background-clip: text;
+	color: transparent;
+	animation: blink 2s linear infinite;
+	-webkit-animation: blink 2s linear infinite;
+	-moz-animation: blink 2s linear infinite;
+	-ms-animation: blink 2s linear infinite;
+	-o-animation: blink 2s linear infinite;
+} 
+@keyframes blink{            0%{opacity: 1;}            50%{opacity: 0.5;}            100%{opacity: 0.8;}          }          @-webkit-keyframes blink {            0% { opacity: 1; }            50%{ opacity: 0.5;}            100% { opacity: 0.8; }          }          @-moz-keyframes blink {            0% { opacity: 1; }            50%{ opacity: 0.5; }            100% { opacity: 0.8; }          }          @-ms-keyframes blink {            0% { opacity: 1; }            50%{ opacity: 0.5; }            100% { opacity: 0.8;}          }          @-o-keyframes blink {            0% { opacity: 1; }            50%{ opacity: 0.5; }            100% { opacity: 0.8; }          }
