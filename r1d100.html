@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>100面骰子</title>
+<style type="text/css">
+@import url("css/CSS固定底部导航栏.css");
+.inMiddle
+{
+	position:relative;
+	margin:auto;
+}
+</style>
+</head>
+
+<body>
+<div class="inMiddle">
+<table width="700" border="0">
+  <tr>
+    <td height="276"><img src="img/roll.jpg" alt="骰子图片"width="480" height="270" style="position:;" align="middle" /></td>
+  </tr>
+  <tr>
+    <td><button type="button" onclick="clickRandomNumber()">投100面骰子</button>
+    　　结果为：<input type="text" id="result"/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td><button type="button" onclick="window.location.href('about.html')">返回上一页</button></td>
+  </tr>
+</table>
+</div>
+
+<script>
+function clickRandomNumber()
+{
+	var result=Math.floor(Math.random()*(100)+1);
+	document.getElementById("result").value = result;
+}
+</script>
+
+
+<div2 class="navbar">
+  <a href="index.html">主页</a>
+  <a href="news.html">最新活动</a>
+  <a href="login.html">用户登录</a>
+  <a href="register.html">用户注册</a>
+  <a href="game.html">FLASH游戏</a>
+  <a href="about.html">关于作者</a>
+</div2>
+
+</body>
+</html>

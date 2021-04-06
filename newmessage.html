@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>写留言</title>
+<style type="text/css">
+@import url("css/CSS固定底部导航栏.css");
+@import url("css/闪烁渐变标题.css");
+.lightgrey2em{
+	background-color:rgba(200, 200, 200, 0.47);
+	text-indent:2em;
+}
+</style>
+</head>
+
+<body background="img/classroom.jpg">
+
+<div class="lightgrey2em">
+<form action="newmessage.php" method="post">  
+<br /> 
+<h1 style="font-weight:bold" >写留言</h1> 
+<br>
+　　　　昵称：<input type="text" name="username"> <br/><br/>
+　　　　电子邮箱：<input type="email" name="email">（必填项）<br/><br/>
+　　　　留言：<input type="text" name="txt" style="height:60px"> <br/><br/>　　　
+<input type="submit" value="提交" name="btn">
+<br/><br/>
+</form>
+</div>
+
+</body>
+</html>
